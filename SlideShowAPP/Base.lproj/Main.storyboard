@@ -50,6 +50,12 @@
                                     <action selector="back:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gDw-BI-gCL"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bb-ar-9Dw">
+                                <rect key="frame" x="66" y="404" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -78,6 +84,7 @@
                     <connections>
                         <outlet property="back" destination="TCQ-7g-WTN" id="HBr-cT-QaM"/>
                         <outlet property="imageView" destination="ymW-uZ-XBc" id="uVp-tE-R1S"/>
+                        <outlet property="imageView1" destination="ymW-uZ-XBc" id="XaK-VZ-zJi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
