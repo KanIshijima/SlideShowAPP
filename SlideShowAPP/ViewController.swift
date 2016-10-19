@@ -92,7 +92,7 @@ class ViewController: UIViewController {
         self.view.addSubview(myLabel)
         
         //タイマーを作る.
-        NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: "onUpdate:", userInfo: nil, repeats: true)
+        NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: #selector(ViewController.onUpdate(_:)), userInfo: nil, repeats: true)
     }
     
     //NSTimerIntervalで指定された秒数毎に呼び出されるメソッド.
@@ -200,4 +200,3 @@ class ViewController: UIViewController {
 
 
 }
-

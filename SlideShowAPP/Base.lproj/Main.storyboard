@@ -82,7 +82,6 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="back" destination="TCQ-7g-WTN" id="HBr-cT-QaM"/>
                         <outlet property="imageView" destination="ymW-uZ-XBc" id="uVp-tE-R1S"/>
                         <outlet property="imageView1" destination="ymW-uZ-XBc" id="XaK-VZ-zJi"/>
                     </connections>
