@@ -58,7 +58,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         imageView1.userInteractionEnabled = true
-        imageView1.addGestureRecognizer(UITapGestureRecognizer(target: self, action: "imageTapped:"))
+        imageView1.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(ViewController.imageTapped(_:))))
         
     }
     
@@ -67,7 +67,7 @@ class ViewController: UIViewController {
     }
     
     func imageTapped(sender: UITapGestureRecognizer) {
-        println(sender)
+        print(sender)
     }
     
     //この後タイマー　時間計測用の変数.

@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF0DBB201DB8FDE800BCC36E /* img_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF0DBB1C1DB8FDE800BCC36E /* img_001.jpg */; };
+		EF0DBB211DB8FDE800BCC36E /* img_002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF0DBB1D1DB8FDE800BCC36E /* img_002.jpg */; };
+		EF0DBB221DB8FDE800BCC36E /* img_003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF0DBB1E1DB8FDE800BCC36E /* img_003.jpg */; };
+		EF0DBB231DB8FDE800BCC36E /* img_004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF0DBB1F1DB8FDE800BCC36E /* img_004.jpg */; };
 		EF64278C1DB47104002AB1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF64278B1DB47104002AB1B8 /* AppDelegate.swift */; };
 		EF64278E1DB47104002AB1B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF64278D1DB47104002AB1B8 /* ViewController.swift */; };
 		EF6427911DB47104002AB1B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF64278F1DB47104002AB1B8 /* Main.storyboard */; };
 		EF6427931DB47104002AB1B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6427921DB47104002AB1B8 /* Assets.xcassets */; };
 		EF6427961DB47104002AB1B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6427941DB47104002AB1B8 /* LaunchScreen.storyboard */; };
-		EF6427A11DB48545002AB1B8 /* img_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF64279D1DB48545002AB1B8 /* img_001.jpg */; };
-		EF6427A21DB48545002AB1B8 /* img_002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF64279E1DB48545002AB1B8 /* img_002.jpg */; };
-		EF6427A31DB48545002AB1B8 /* img_003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF64279F1DB48545002AB1B8 /* img_003.jpg */; };
-		EF6427A41DB48545002AB1B8 /* img_004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF6427A01DB48545002AB1B8 /* img_004.jpg */; };
 		EF6427A61DB4F00D002AB1B8 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6427A51DB4F00D002AB1B8 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF0DBB1C1DB8FDE800BCC36E /* img_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_001.jpg; sourceTree = "<group>"; };
+		EF0DBB1D1DB8FDE800BCC36E /* img_002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_002.jpg; sourceTree = "<group>"; };
+		EF0DBB1E1DB8FDE800BCC36E /* img_003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_003.jpg; sourceTree = "<group>"; };
+		EF0DBB1F1DB8FDE800BCC36E /* img_004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_004.jpg; sourceTree = "<group>"; };
 		EF6427881DB47104002AB1B8 /* SlideShowAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideShowAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF64278B1DB47104002AB1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF64278D1DB47104002AB1B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,10 +31,6 @@
 		EF6427921DB47104002AB1B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF6427951DB47104002AB1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF6427971DB47104002AB1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF64279D1DB48545002AB1B8 /* img_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_001.jpg; path = "../../../../Desktop/風景サンプル/img_001.jpg"; sourceTree = "<group>"; };
-		EF64279E1DB48545002AB1B8 /* img_002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_002.jpg; path = "../../../../Desktop/風景サンプル/img_002.jpg"; sourceTree = "<group>"; };
-		EF64279F1DB48545002AB1B8 /* img_003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_003.jpg; path = "../../../../Desktop/風景サンプル/img_003.jpg"; sourceTree = "<group>"; };
-		EF6427A01DB48545002AB1B8 /* img_004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_004.jpg; path = "../../../../Desktop/風景サンプル/img_004.jpg"; sourceTree = "<group>"; };
 		EF6427A51DB4F00D002AB1B8 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,10 +64,10 @@
 		EF64278A1DB47104002AB1B8 /* SlideShowAPP */ = {
 			isa = PBXGroup;
 			children = (
-				EF64279D1DB48545002AB1B8 /* img_001.jpg */,
-				EF64279E1DB48545002AB1B8 /* img_002.jpg */,
-				EF64279F1DB48545002AB1B8 /* img_003.jpg */,
-				EF6427A01DB48545002AB1B8 /* img_004.jpg */,
+				EF0DBB1C1DB8FDE800BCC36E /* img_001.jpg */,
+				EF0DBB1D1DB8FDE800BCC36E /* img_002.jpg */,
+				EF0DBB1E1DB8FDE800BCC36E /* img_003.jpg */,
+				EF0DBB1F1DB8FDE800BCC36E /* img_004.jpg */,
 				EF64278B1DB47104002AB1B8 /* AppDelegate.swift */,
 				EF64278D1DB47104002AB1B8 /* ViewController.swift */,
 				EF64278F1DB47104002AB1B8 /* Main.storyboard */,
@@ -138,12 +138,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF6427961DB47104002AB1B8 /* LaunchScreen.storyboard in Resources */,
+				EF0DBB211DB8FDE800BCC36E /* img_002.jpg in Resources */,
 				EF6427931DB47104002AB1B8 /* Assets.xcassets in Resources */,
-				EF6427A21DB48545002AB1B8 /* img_002.jpg in Resources */,
-				EF6427A31DB48545002AB1B8 /* img_003.jpg in Resources */,
-				EF6427A41DB48545002AB1B8 /* img_004.jpg in Resources */,
+				EF0DBB221DB8FDE800BCC36E /* img_003.jpg in Resources */,
+				EF0DBB231DB8FDE800BCC36E /* img_004.jpg in Resources */,
 				EF6427911DB47104002AB1B8 /* Main.storyboard in Resources */,
-				EF6427A11DB48545002AB1B8 /* img_001.jpg in Resources */,
+				EF0DBB201DB8FDE800BCC36E /* img_001.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
