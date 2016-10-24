@@ -21,62 +21,10 @@ class ViewController: UIViewController {
         let image = UIImage(named:photos[0])
         imageView.image = image
         //上記2行は写真をimageとして扱い、ナンバーを０として扱うという意味
-        
-    }
-
-    @IBAction func next(sender: AnyObject) {
-        index += 1
-        //上記はindexを１づつアップさせる（次のボタンのアクション）
-        if index == 4{
-            index = 0
-        }
-        
-        let image = UIImage(named:photos[index])
-        imageView.image = image
-        //上記２行は
-        
-    }
-    
-    @IBAction func back(sender: AnyObject) {
-    
-        index -= 1
-        //上記はindexを１づつダウンさせる（戻るボタンのアクション）
-        if index == 0{
-            index = 4
-        }
-    }
-    
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    @IBOutlet weak var imageView1: UIImageView!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        imageView1.userInteractionEnabled = true
-        imageView1.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(ViewController.imageTapped(_:))))
-        
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-    
-    func imageTapped(sender: UITapGestureRecognizer) {
-        print(sender)
-    }
-    
-    //この後タイマー　時間計測用の変数.
-    var cnt : Float = 0
-    
-    //時間表示用のラベル.
-    var myLabel : UILabel!
-    
-    override func viewDidLoad() {
+            
+        imageView.userInteractionEnabled = true
+        ImageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: "imageTapped:"))
+        imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(ViewController())))
         
         //ラベルを作る.
         myLabel = UILabel(frame: CGRectMake(0,0,200,50))
@@ -90,10 +38,46 @@ class ViewController: UIViewController {
         myLabel.layer.position = CGPoint(x: self.view.bounds.width/2,y: 200)
         self.view.backgroundColor = UIColor.cyanColor()
         self.view.addSubview(myLabel)
-        
+
         //タイマーを作る.
         NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: #selector(ViewController.onUpdate(_:)), userInfo: nil, repeats: true)
+        
+        func next(sender: AnyObject) {
+            index += 1
+            //上記はindexを１づつアップさせる（次のボタンのアクション）
+            if index == 4{
+                index = 0
+            }
+        }
+        func back(sender: AnyObject) {
+                
+                index -= 1
+                //上記はindexを１づつダウンさせる（戻るボタンのアクション）
+                if index == 0{
+                    index = 4
+                }
+        }
+    
+        
+        let image = UIImage(named:photos[index])
+        imageView.image = image
+        //上記２行は
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
+
+    
+    func imageTapped(sender: UITapGestureRecognizer) {
+        print(sender)
+    }
+    
+    //この後タイマー　時間計測用の変数.
+    var cnt : Float = 0
+    
+    //時間表示用のラベル.
+    var myLabel : UILabel!
     
     //NSTimerIntervalで指定された秒数毎に呼び出されるメソッド.
     func onUpdate(timer : NSTimer){
